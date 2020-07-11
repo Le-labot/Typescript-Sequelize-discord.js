@@ -1,0 +1,38 @@
+{
+  "name": "Typescript-Sequelize-discord.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:gulp": "gulp build",
+    "watch:gulp": "gulp watch",
+    "start:gulp": "gulp start",
+    "watch": "npm run watch:gulp -s",
+    "build": "npm run build:gulp -s",
+    "start": "npm run start:gulp -s"  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Le-labot/Typescript-Sequelize-discord.js.git"
+  },
+  "keywords": [],
+  "author": "SlayerMonkey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Le-labot/Typescript-Sequelize-discord.js/issues"
+  },
+  "homepage": "https://github.com/Le-labot/Typescript-Sequelize-discord.js#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.22",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-nodemon": "^2.5.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.1"
+  }
+}
